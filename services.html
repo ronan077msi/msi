@@ -1,0 +1,1315 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Services-msi</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" 
+  integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/services.css">
+  <!-- Favicon classique -->
+<link rel="icon" href="assets/img/favicon.png" type="image/png">
+<!-- Apple et mobiles -->
+<link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.png">
+</head>
+<body class="bg-white">
+
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg bg-white fixed-top shadow-sm" id="mainNavbar">
+  <div class="container-fluid px-4">
+
+    <!-- Logo -->
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/img/msi.png" alt="MSI Logo" height="40" class="d-inline-block align-text-top">
+    </a>
+
+    <!-- Desktop -->
+    <div class="collapse navbar-collapse d-none d-lg-flex ms-auto">
+      <ul class="navbar-nav align-items-center gap-3">
+        <li class="nav-item">
+          <a class="nav-link d-flex align-items-center gap-2 px-3 py-2 rounded-pill active" 
+          href="index.html#welcome" data-section="welcome">
+          <i class="bi bi-house-door-fill"></i> Accueil
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link d-flex align-items-center gap-2 px-3 py-2 rounded-pill" 
+        href="index.html#services" data-section="services">
+        <i class="bi bi-gear-fill"></i> Services
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link d-flex align-items-center gap-2 px-3 py-2 rounded-pill" 
+      href="index.html#about" data-section="about">
+      <i class="bi bi-person-circle"></i> À propos
+    </a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link d-flex align-items-center gap-2 px-3 py-2 rounded-pill" 
+    href="index.html#contact" data-section="contact">
+    <i class="bi bi-envelope-fill"></i> Contact
+  </a>
+</li>
+</ul>
+</div>
+
+<!-- Mobile -->
+<ul class="navbar-nav flex-row justify-content-center align-items-center d-lg-none mobile-icons fixed-bottom bg-white shadow-lg border-top py-2" 
+style="z-index: 1030; left: 0; right: 0;">
+<li class="nav-item flex-fill text-center">
+  <a class="nav-link p-3 active" href="index.html#welcome" data-section="welcome">
+    <i class="bi bi-house-door-fill fs-4"></i>
+  </a>
+</li>
+<li class="nav-item flex-fill text-center">
+  <a class="nav-link p-3" href="index.html#services" data-section="services">
+    <i class="bi bi-gear-fill fs-4"></i>
+  </a>
+</li>
+<li class="nav-item flex-fill text-center">
+  <a class="nav-link p-3" href="index.html#about" data-section="about">
+    <i class="bi bi-person-circle fs-4"></i>
+  </a>
+</li>
+<li class="nav-item flex-fill text-center">
+  <a class="nav-link p-3" href="index.html#contact" data-section="contact">
+    <i class="bi bi-envelope-fill fs-4"></i>
+  </a>
+</li>
+</ul>
+
+</div>
+</nav>
+
+<!-- Hero Carousel Section -->
+<section class="hero-carousel overflow-hidden" style="margin-top: 76px;">
+  <div id="servicesCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#servicesCarousel" data-bs-slide-to="2"></button>
+    </div>
+
+    <!-- Slides -->
+    <div class="carousel-inner">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="position-relative">
+          <img src="assets/img/slide1.webp" class="d-block w-100" alt="Conseil & Stratégie Digitale" style="height: 70vh; object-fit: cover; object-position: center;">
+          
+          <div class="carousel-caption text-center px-3">
+            <div class="container">
+              <h2 class="display-5 fw-bold text-white animate__animated animate__fadeInDown" 
+              style="font-family: 'Montserrat', sans-serif; text-shadow: 0 2px 10px rgba(0,0,0,0.7); font-size: 2.2rem;">
+              Sites web professionnels
+            </h2>
+            <p class="lead text-white animate__animated animate__fadeInUp animate__delay-1s d-none d-lg-block" 
+            style="text-shadow: 0 1px 8px rgba(0,0,0,0.7);">
+            Une présence en ligne plus forte grâce à un site web sur-mesure.
+          </p>
+          <a href="#offres" class="btn btn-primary btn-lg rounded-pill mt-3 animate__animated animate__fadeInUp animate__delay-2s">
+            <i class="bi bi-arrow-right-circle"></i> Demander un devis
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="carousel-item">
+    <div class="position-relative">
+      <img src="assets/img/slide2.webp" class="d-block w-100" alt="Développement Web & Mobile" style="height: 70vh; object-fit: cover; object-position: center;">
+      <div class="carousel-caption text-center px-3">
+        <div class="container">
+          <h2 class="display-5 fw-bold text-white animate__animated animate__fadeInDown" 
+          style="font-family: 'Montserrat', sans-serif; text-shadow: 0 2px 10px rgba(0,0,0,0.7); font-size: 2.2rem;">
+          Développez vos compétences en informatique
+        </h2>
+        <p class="lead text-white animate__animated animate__fadeInUp animate__delay-1s d-none d-lg-block">
+          Apprenez le graphisme, le web design et la maintenance chez CFM.
+        </p>
+        <a href="#formation" class="btn btn-primary btn-lg rounded-pill mt-3 animate__animated animate__fadeInUp animate__delay-2s">
+          <i class="bi bi-arrow-right-circle"></i> Voir nos modules
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Slide 3 -->
+<div class="carousel-item">
+  <div class="position-relative">
+    <img src="assets/img/slide3.webp" class="d-block w-100" alt="Maintenance & Support 24/7" style="height: 70vh; object-fit: cover; object-position: center;">
+    <div class="carousel-caption text-center px-3">
+      <div class="container">
+        <h2 class="display-5 fw-bold text-white animate__animated animate__fadeInDown animate__slower" 
+        style="font-family: 'Montserrat', sans-serif; text-shadow: 0 2px 10px rgba(0,0,0,0.7); font-size: 2.2rem;">
+        Dépannage informatique rapide et fiable.
+      </h2>
+      <p class="lead text-white animate__animated animate__fadeInUp animate__delay-1s d-none d-lg-block">
+        Réparez vos problèmes informatiques en un temps record.
+      </p>
+      <a href="#contact" class="btn btn-primary btn-lg rounded-pill mt-3 animate__animated animate__fadeInUp animate__delay-2s">
+        <i class="bi bi-headset"></i> Nous contacter
+      </a>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+</section>
+
+<!-- Section Développement Web  -->
+<section id="dev-web" class="py-5 bg-white">
+  <div class="container py-lg-5">
+    <div class="row align-items-center g-5">
+
+      <!-- IMAGE À GAUCHE -->
+      <div class="col-lg-6 order-lg-1 order-1 text-center text-lg-start">
+        <img src="assets/img/dev-web.webp"
+        alt="Site web responsive et moderne"
+        class="img-fluid rounded-4 shadow-lg animate__animated animate__fadeInLeft"
+        style="max-height: 420px; object-fit: cover; border: 3px solid #fff;">
+      </div>
+
+      <!-- TEXTE PRINCIPAL -->
+      <div class="col-lg-6 order-lg-2 order-2">
+        <div class="pe-lg-4 animate__animated animate__fadeInRight">
+
+          <h3 class="display-6 fw-bold mb-3" style="color: #035db7;">
+            Développement Web Sur Mesure
+          </h3>
+          <p class="lead text-muted mb-4">
+            Des sites performants, modernes et optimisés pour tous les écrans.
+          </p>
+
+          <!-- Liste rapide -->
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Sites vitrines</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Responsive Design</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>SEO Optimisé</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Support inclus</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Prix + Bouton -->
+          <div class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center gap-3 mb-5">
+            <p class="fw-bold text-primary mb-0 fs-5">
+              À partir de <span class="text-dark">150 000 Ar</span>
+            </p>
+            <a href="#offres" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm fw-bold">
+              <i class="bi bi-arrow-right-circle me-2"></i> Demander un devis
+            </a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- === BLOC TECHNIQUE & PROCESSUS === -->
+    <div class="mt-5 p-4 bg-light rounded-4 border-start border-primary border-4">
+      <h5 class="fw-bold text-primary mb-3">
+        <i class="bi bi-code-slash me-2"></i> Technologie & Qualité
+      </h5>
+      <p class="mb-3">
+        Le site est <strong>100 % responsive grâce à Bootstrap</strong> : il s’adapte parfaitement à tous les écrans (mobile, tablette, ordinateur). 
+        Design épuré, animations fluides, chargement ultra-rapide et <strong>optimisation SEO de base intégrée</strong> (balises title, meta, structure Hn, sitemap, vitesse).
+      </p>
+    </div>
+
+    <!-- === PROCESSUS ÉTAPE PAR ÉTAPE === -->
+    <div class="mt-5">
+      <h5 class="fw-bold text-primary mb-4">
+        <i class="bi bi-list-check me-2"></i> Voici comment ça se passe, étape par étape :
+      </h5>
+      <ol class="list-group list-group-numbered mb-5">
+        <li class="list-group-item">Vous m’envoyez vos contenus et vos souhaits (style, couleurs, exemples)</li>
+        <li class="list-group-item">Je vous propose une maquette interactive que vous validez en 24h</li>
+        <li class="list-group-item">Je code le site avec Bootstrap 5, HTML5, CSS3 et JavaScript propre</li>
+        <li class="list-group-item">J’intègre le SEO on-page (mots-clés, balises, alt images, schema.org)</li>
+        <li class="list-group-item">Je teste sur Chrome, Firefox, Safari, mobiles Android/iOS</li>
+        <li class="list-group-item">Vous recevez un dossier ZIP ou RAR complet : fichiers HTML/CSS/JS + images + guide de mise en ligne</li>
+      </ol>
+    </div>
+
+    <!-- === LIVRAISON & PROPRIÉTÉ === -->
+    <div class="row g-4 mt-4">
+      <div class="col-md-6">
+        <div class="p-4 bg-success text-white rounded-4 shadow-sm">
+          <i class="bi bi-cloud-arrow-up-fill fs-3 mb-2"></i>
+          <h6 class="fw-bold">Hébergement simple</h6>
+          <p class="small mb-0">
+            Vous pouvez héberger sur <strong>Netlify, Vercel</strong>, ou votre serveur – aucune installation complexe.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="p-4 bg-primary text-white rounded-4 shadow-sm">
+          <i class="bi bi-person-check-fill fs-3 mb-2"></i>
+          <h6 class="fw-bold">Vous êtes propriétaire à 100 %</h6>
+          <p class="small mb-0">
+            Le code est propre, commenté, modifiable. <strong>Pas de CMS lourd</strong> : léger, sécurisé, rapide.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- === SUPPORT POST-LIVRAISON === -->
+    <div class="mt-5 p-4 bg-warning bg-opacity-10 rounded-4 border-start border-warning border-4">
+      <p class="mb-0">
+        <i class="bi bi-headset me-2 text-warning"></i>
+        Je reste disponible <strong>7 jours après livraison</strong> pour ajustements gratuits (texte, couleurs, petites modifications). 
+        Si vous avez un hébergement, <strong>je peux même le déployer pour vous</strong>.
+      </p>
+    </div>
+
+    <!-- === OFFRES & OPTIONS === -->
+    <div id="offres" class="row g-4 mt-5">
+
+      <!-- Offre Basique -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card rounded-4 text-center p-3 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h6 class="fw-bold text-primary">Offre Basique</h6>
+            <p class="small text-muted mt-2">Un site vitrine simple et efficace pour présenter votre activité.</p>
+            <p class="small text-muted mt-2">1 à 2 pages professionnelles</p>
+            <p class="small text-muted mt-2"><strong>à partir de : </strong></p>
+            <p class="display-6 fw-bold text-dark mt-3">150 000 Ar</p>
+            <p class="small text-muted mt-2"><strong>Selon vos besion</strong></p>
+            <p class="small text-success mt-2">Livraison en 3 jours</p>
+            <a href="index.html#contact" class="btn btn-outline-primary btn-sm rounded-pill mt-auto">
+              Choisir
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Offre Standard (Recommandée) -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card offer-featured rounded-4 text-center p-3 shadow-lg">
+          <div class="card-body d-flex flex-column">
+            <span class="badge bg-primary mb-2">Recommandé</span>
+            <h6 class="fw-bold text-primary">Offre Standard</h6>
+            <p class=" gelir small text-muted mt-2">La solution idéale pour développer votre présence en ligne avec plus de fonctionnalités.</p>
+            <p class=" gelir small text-muted mt-2">3 à 5 pages personnalisées + Formulaire de contact + porfolio + Galerie photos + 1 révision</p>
+            <p class="small text-muted mt-2"><strong>à partir de : </strong></p>
+            <p class="display-6 fw-bold text-dark mt-3">350 000 Ar</p>
+            <p class="small text-muted mt-2"><strong>Selon vos besion</strong></p>
+            <p class="small text-success mt-2">Livraison en 6 jours</p>
+            <a href="index.html#contact" class="btn btn-primary btn-sm rounded-pill mt-auto">
+              Choisir
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Offre Premium -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card rounded-4 text-center p-3 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h6 class="fw-bold text-primary">Offre Premium</h6>
+            <p class="small text-muted mt-2">Une solution complète pour les projets ambitieux et professionnels.</p>
+            <p class="small text-muted mt-2">Toutes les fonctionnalités de l’offre Standard + Blog intégré + Hébergement 1 an offert + Mise en ligne complète</p>
+            <p class="small text-muted mt-2"><strong>à partir de : </strong></p>
+            <p class="display-6 fw-bold text-dark mt-3">450 000 Ar</p>
+            <p class="small text-muted mt-2"><strong>Selon vos besion</strong></p>
+            <p class="small text-success mt-2">Livraison en 7 jours</p>
+            <a href="index.html#contact" class="btn btn-primary btn-sm rounded-pill mt-auto">
+              Choisir
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- === OPTIONS COMPLÉMENTAIRES === -->
+    <div class="mt-5">
+      <h5 class="fw-bold text-primary mb-3">
+        <i class="bi bi-plus-circle me-2"></i> Options complémentaires
+      </h5>
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Page supplémentaire</span> <strong>+50 000 Ar</strong> <small class="text-muted">+1 jour</small>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Formulaire de contact fonctionnel</span> <strong>+80 000 Ar</strong> <small class="text-muted">+1 jour</small>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Galerie photos interactive</span> <strong>+70 000 Ar</strong> <small class="text-muted">+2 jours</small>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Intégration blog</span> <strong>+100 000 Ar</strong> <small class="text-muted">+3 jours</small>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Hébergement 1 an + nom de domaine (.com ou .mg)</span> <strong>+120 000 Ar</strong> <small class="text-muted">+2 jours</small>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Maintenance et mise à jours mensuelle</span> <strong>70 000 Ar / mois</strong>
+        </li>
+      </ul>
+    </div>
+
+<!-- === CTA MINIMALISTE === -->
+<div class="text-center mt-5">
+  <h4 class="fw-bold text-dark mb-3">
+    Votre site pro prêt en <span class="text-primary">moins d’une semaine</span>
+  </h4>
+  <a href="#contact" class="btn btn-primary btn-lg rounded-pill px-5 py-3 fw-bold shadow-sm">
+    Commencer maintenant
+  </a>
+</div>
+
+<!-- === 4 ARGUMENTS VENDEURS === -->
+<div class="row g-4 mt-5">
+  <div class="col-md-6 col-lg-3">
+    <div class="text-center p-4 bg-light rounded-4 shadow-sm">
+      <i class="bi bi-lightning-charge-fill fs-2 text-warning mb-3"></i>
+      <h6 class="fw-bold">Livré en 7 jours max</h6>
+      <p class="small text-muted">Pas de délais interminables.</p>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="text-center p-4 bg-light rounded-4 shadow-sm">
+      <i class="bi bi-shield-check fs-2 text-success mb-3"></i>
+      <h6 class="fw-bold">Satisfait ou remboursé</h6>
+      <p class="small text-muted">Modifications gratuites.</p>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="text-center p-4 bg-light rounded-4 shadow-sm">
+      <i class="bi bi-headset fs-2 text-primary mb-3"></i>
+      <h6 class="fw-bold">Support 7 jours gratuit</h6>
+      <p class="small text-muted">On reste à vos côtés.</p>
+    </div>
+  </div>
+  <div class="col-md-6 col-lg-3">
+    <div class="text-center p-4 bg-light rounded-4 shadow-sm">
+      <i class="bi bi-graph-up-arrow fs-2 text-danger mb-3"></i>
+      <h6 class="fw-bold">+100% de visibilité</h6>
+      <p class="small text-muted">SEO intégré = plus de clients.</p>
+    </div>
+  </div>
+</div>
+
+</div>
+</section>
+
+<!-- Section Graphisme -->
+<section id="graphisme" class="py-5 bg-light">
+  <div class="container py-lg-5">
+    <div class="row align-items-center g-5">
+
+      <!-- IMAGE À GAUCHE -->
+      <div class="col-lg-6 order-lg-1 order-1 text-center text-lg-start">
+        <img src="assets/img/graphisme.webp"
+        alt="Création logo, flyer, identité visuelle"
+        class="img-fluid rounded-4 shadow-lg animate__animated animate__fadeInLeft"
+        style="max-height: 420px; object-fit: cover; border: 3px solid #fff;">
+      </div>
+
+      <!-- TEXTE À DROITE -->
+      <div class="col-lg-6 order-lg-2 order-2">
+        <div class="pe-lg-4 animate__animated animate__fadeInRight">
+          <h3 class="display-6 fw-bold mb-3" style="color: #035db7;">
+            Graphisme & Branding
+          </h3>
+          <p class="lead text-muted mb-4">
+            Logos, flyers, affiches, visuels réseaux sociaux – tout pour votre image.
+          </p>
+
+          <!-- Avantages rapides -->
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Logo pro</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Flyers & affiches</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Visuels RS</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Fichiers sources</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Prix + Bouton -->
+          <div class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center gap-3">
+            <p class="fw-bold text-primary mb-0 fs-5">
+              À partir de <span class="text-dark">10 000 Ar</span>
+            </p>
+            <a href="#contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm fw-bold">
+              <i class="bi bi-arrow-right-circle me-2"></i> Demander un devis
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- === PROCESSUS & LIVRABLES === -->
+    <div class="mt-5 p-4 bg-white rounded-4 border-start border-primary border-4">
+      <p class="mb-0">
+        <strong>Vous recevez :</strong> Fichiers <strong>PNG, JPG, PSD, AI (sources)</strong> + 3 propositions + modifications illimitées jusqu’à validation.
+      </p>
+    </div>
+
+    <!-- === OFFRES === -->
+    <div class="row g-4 mt-5">
+
+      <!-- Basique -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card rounded-4 text-center p-3 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h6 class="fw-bold text-primary">Offre Basique</h6>
+            <p class="small text-muted mt-2">2 flyers + Logo</p>
+            <p class="display-6 fw-bold text-dark mt-3">50 000 Ar</p>
+            <p class="small text-success mt-2">Livré en 2 jours</p>
+            <a href="#contact" class="btn btn-outline-primary btn-sm rounded-pill mt-auto">Choisir</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Standard (Recommandée) -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card offer-featured rounded-4 text-center p-3 shadow-lg">
+          <div class="card-body d-flex flex-column">
+            <span class="badge bg-primary mb-2">Populaire</span>
+            <h6 class="fw-bold text-primary">Offre Standard</h6>
+            <p class="small text-muted mt-2">Logo + 5 flyer</p>
+            <p class="display-6 fw-bold text-dark mt-3">120 000 Ar</p>
+            <p class="small text-success mt-2">Livré en 4 jours</p>
+            <a href="#contact" class="btn btn-primary btn-sm rounded-pill mt-auto">Choisir</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Premium -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card rounded-4 text-center p-3 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h6 class="fw-bold text-primary">Offre Premium</h6>
+            <p class="small text-muted mt-2">Logo + 5 flyer + 5 visuels RS</p>
+            <p class="display-6 fw-bold text-dark mt-3">200 000 Ar</p>
+            <p class="small text-success mt-2">Livré en 6 jours</p>
+            <a href="#contact" class="btn btn-primary btn-sm rounded-pill mt-auto">Choisir</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- === OPTIONS COMPLÉMENTAIRES === -->
+    <div class="mt-5">
+      <h5 class="fw-bold text-primary mb-3">Options supplémentaires</h5>
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between">
+          <span>1 Flyer supplémentaire</span> <strong>+10 000 Ar</strong>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>5 visuels réseaux sociaux</span> <strong>+50 000 Ar</strong>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Charte graphique complète</span> <strong>+80 000 Ar</strong>
+        </li>
+      </ul>
+    </div>
+
+    <!-- === CTA MINIMALISTE === -->
+    <div class="text-center mt-5">
+      <h4 class="fw-bold text-dark mb-3">
+        Votre flyers ou logo pro prêt en <span class="text-primary">moins de 2 jours</span>
+      </h4>
+      <a href="#contact" class="btn btn-primary btn-lg rounded-pill px-5 py-3 fw-bold shadow-sm">
+        Commencer maintenant
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Section Maintenance Software -->
+<section id="maintenance" class="py-5 bg-white">
+  <div class="container py-lg-5">
+    <div class="row align-items-center g-5">
+
+      <!-- IMAGE À GAUCHE -->
+      <div class="col-lg-6 order-lg-1 order-1 text-center text-lg-start">
+        <img src="assets/img/maintenance.webp"
+        alt="Maintenance informatique, réparation PC"
+        class="img-fluid rounded-4 shadow-lg animate__animated animate__fadeInLeft"
+        style="max-height: 420px; object-fit: cover; border: 3px solid #fff;">
+      </div>
+
+      <!-- TEXTE À DROITE -->
+      <div class="col-lg-6 order-lg-2 order-2">
+        <div class="pe-lg-4 animate__animated animate__fadeInRight">
+          <h3 class="display-6 fw-bold mb-3" style="color: #035db7;">
+            Maintenance  softwares & Support
+          </h3>
+          <p class="lead text-muted mb-4">
+            Réparation, optimisation, installation – votre PC comme neuf.
+          </p>
+
+          <!-- Avantages rapides -->
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Réparation PC</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Installation logiciels</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Nettoyage virus</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Sauvegarde données</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Prix + Bouton -->
+          <div class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center gap-3">
+            <p class="fw-bold text-primary mb-0 fs-5">
+              À partir de <span class="text-dark">15 000 Ar</span>
+            </p>
+            <a href="#contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm fw-bold">
+              <i class="bi bi-arrow-right-circle me-2"></i> Prendre RDV
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- === GARANTIE & LIVRABLES === -->
+    <div class="mt-5 p-4 bg-light rounded-4 border-start border-success border-4">
+      <p class="mb-0">
+        <strong>Garantie 5 jours</strong> sur toute intervention. 
+        Rapport détaillé + conseils offerts.
+      </p>
+    </div>
+
+    <!-- === OFFRES === -->
+    <div class="row g-4 mt-5">
+
+      <!-- Basique -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card rounded-4 text-center p-3 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h6 class="fw-bold text-primary">Diagnostic + Nettoyage</h6>
+            <p class="small text-muted mt-2">Analyse + suppression virus</p>
+            <p class="display-6 fw-bold text-dark mt-3">15 000 Ar</p>
+            <p class="small text-success mt-2">Sur place en 1h</p>
+            <a href="#contact" class="btn btn-outline-primary btn-sm rounded-pill mt-auto">Choisir</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Standard (Recommandée) -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card offer-featured rounded-4 text-center p-3 shadow-lg">
+          <div class="card-body d-flex flex-column">
+            <span class="badge bg-primary mb-2">Recommandé</span>
+            <h6 class="fw-bold text-primary">Forfait Complet</h6>
+            <p class="small text-muted mt-2">Nettoyage + optimisation + sauvegarde</p>
+            <p class="display-6 fw-bold text-dark mt-3">30 000 Ar</p>
+            <p class="small text-success mt-2">Intervention en 1h</p>
+            <a href="#contact" class="btn btn-primary btn-sm rounded-pill mt-auto">Choisir</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Premium -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card rounded-4 text-center p-3 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h6 class="fw-bold text-primary">Contrat Mensuel</h6>
+            <p class="small text-muted mt-2">Support illimité + 1 visite/mois</p>
+            <p class="display-6 fw-bold text-dark mt-3">100 000 Ar/mois</p>
+            <p class="small text-success mt-2">Priorité 7j/7</p>
+            <a href="#contact" class="btn btn-primary btn-sm rounded-pill mt-auto">Choisir</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- === OPTIONS COMPLÉMENTAIRES === -->
+    <div class="mt-5">
+      <h5 class="fw-bold text-primary mb-3">Services additionnels</h5>
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Réinstallation Windows</span> <strong>+20 000 Ar</strong>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Récupération données disque dur</span> <strong>+30 000 Ar</strong>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Configuration imprimante/réseau</span> <strong>+50 000 Ar</strong>
+        </li>
+      </ul>
+    </div>
+
+    <!-- === CTA MINIMALISTE === -->
+    <div class="text-center mt-5">
+      <h4 class="fw-bold text-dark mb-3">
+        Pc lent ? <span class="text-primary">on va la réparer</span>
+      </h4>
+      <a href="#contact" class="btn btn-primary btn-lg rounded-pill px-5 py-3 fw-bold shadow-sm">
+        Commencer maintenant
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Section Formation -->
+<section id="formation" class="py-5 bg-light">
+  <div class="container py-lg-5">
+    <div class="row align-items-center g-5">
+
+      <!-- IMAGE À GAUCHE -->
+      <div class="col-lg-6 order-lg-1 order-1 text-center text-lg-start">
+        <img src="assets/img/formation.webp"
+        alt="Cours bureautique, développement web, graphisme"
+        class="img-fluid rounded-4 shadow-lg animate__animated animate__fadeInLeft"
+        style="max-height: 420px; object-fit: cover; border: 3px solid #fff;">
+      </div>
+
+      <!-- TEXTE À DROITE -->
+      <div class="col-lg-6 order-lg-2 order-2">
+        <div class="pe-lg-4 animate__animated animate__fadeInRight">
+          <h3 class="display-6 fw-bold mb-3" style="color: #035db7;">
+            Formation Pratique chez CFM Betambako
+          </h3>
+          <p class="lead text-muted mb-4">
+            Cours à domicile ou au centre – Bureautique ( standars ou avancé ),Dev web ( Front ou Back-End ), graphisme, maintenance.
+          </p>
+
+          <!-- Avantages rapides -->
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Bureautique complète</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Dev web & graphisme</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>À domicile ou Chez CFM</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Support post-formation</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Prix + Bouton -->
+          <div class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center gap-3">
+            <p class="fw-bold text-primary mb-0 fs-5">
+              À partir de <span class="text-dark">70 000 Ar / selon le modules</span>
+            </p>
+            <a href="#contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm fw-bold">
+              <i class="bi bi-arrow-right-circle me-2"></i> Choisir mon cours
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- === MODALITÉS & GARANTIE === -->
+    <div class="mt-5 p-4 bg-white rounded-4 border-start border-success border-4">
+      <p class="mb-0">
+        <strong>À domicile </strong> ou au centre de formation Moramanga. 
+        <strong>Support gratuit 15 jours</strong> après formation. 
+        <strong>Garantie satisfaction</strong> : cours adapté à votre niveau.
+      </p>
+    </div>
+
+    <!-- === OFFRES PAR MODULE === -->
+    <div class="row g-4 mt-5">
+
+      <!-- Bureautique -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card rounded-4 text-center p-3 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <i class="bi bi-file-earmark-text fs-2 text-primary mb-2"></i>
+            <h6 class="fw-bold text-primary">Bureautique</h6>
+            <p class="small text-muted mt-2">Word, Excel, PowerPoint, Outlook</p>
+            <p class="display-6 fw-bold text-dark mt-3">Dès 70 000 Ar</p>
+            <p class="small text-muted mt-2"><strong>Par mois, selon votre durée et choix du niveau</strong></p>
+            <p class="small text-success mt-2">2 mois max selon ton niveau</p>
+            <a href="#contact" class="btn btn-outline-primary btn-sm rounded-pill mt-auto">Choisir</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Développement Web (Recommandée) -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card offer-featured rounded-4 text-center p-3 shadow-lg">
+          <div class="card-body d-flex flex-column">
+            <span class="badge bg-primary mb-2">Le plus demandé</span>
+            <i class="bi bi-code-slash fs-2 text-primary mb-2"></i>
+            <h6 class="fw-bold text-primary">Développement Web</h6>
+            <p class="small text-muted mt-2">Front-End : HTML, CSS, Framework CSS,Git/github, JS de base,etc...</p>
+            <p class="small text-muted mt-2">Back-End : Node.js, Express.js, Js, MadiaDB, Git/github,etc...</p>
+            <p class="small text-muted mt-2"><strong>A partir de : </strong></p>
+            <p class="display-6 fw-bold text-dark mt-3">110 000 Ar</p>
+            <p class="small text-muted mt-2"><strong>Par mois selon vos choix</strong></p>
+            <p class="small text-success mt-2">A partir de 2 mois ou plus selon ton niveau</p>
+            <a href="#contact" class="btn btn-primary btn-sm rounded-pill mt-auto">Choisir</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Graphisme -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card rounded-4 text-center p-3 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <i class="bi bi-palette fs-2 text-primary mb-2"></i>
+            <h6 class="fw-bold text-primary">Graphisme</h6>
+            <p class="small text-muted mt-2">Photoshop, Illustrator, indesign</p>
+            <p class="display-6 fw-bold text-dark mt-3">80 000 Ar</p>
+            <p class="small text-muted mt-2"><strong>Par mois selon vos choix de modules</strong></p>
+            <p class="small text-muted mt-2"><strong>120.000 Ar par mois tous les modules</strong></p>
+            <p class="small text-success mt-2">1 à 2 mois max</p>
+            <a href="#contact" class="btn btn-primary btn-sm rounded-pill mt-auto">Choisir</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- === PACKS COMPLÉMENTS === -->
+    <div class="row g-4 mt-5">
+      <div class="col-md-6">
+        <div class="card h-100 offer-card rounded-4 p-4 shadow-sm">
+          <div class="card-body text-center">
+            <i class="bi bi-laptop fs-2 text-primary mb-3"></i>
+            <h6 class="fw-bold text-primary">Pack Complet</h6>
+            <p class="small text-muted">Bureautique + Web + Graphisme</p>
+            <p class="display-6 fw-bold text-dark">180 000 Ar <span class="text-success">(-30%)</span></p>
+            <p class="small text-success">1 à 3 mois max</p>
+            <a href="#contact" class="btn btn-primary rounded-pill mt-3">Choisir le pack</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card h-100 offer-card rounded-4 p-4 shadow-sm">
+          <div class="card-body text-center">
+            <i class="bi bi-people fs-2 text-primary mb-3"></i>
+            <h6 class="fw-bold text-primary">Formation Entreprise</h6>
+            <p class="small text-muted">2 à 5 personnes, même niveau</p>
+            <p class="display-6 fw-bold text-dark">200 000 Ar / groupe</p>
+            <p class="small text-success">À votre siège social</p>
+            <a href="#contact" class="btn btn-primary rounded-pill mt-3">Devis entreprise</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- === OPTIONS COMPLÉMENTAIRES === -->
+    <div class="mt-5">
+      <h5 class="fw-bold text-primary mb-3">Option et instructions</h5>
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between">
+          <span>A domicile </span> <strong>+15 000 Ar ( Déplacement )</strong>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Logicièles</span> <strong>Offerts</strong>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Certificat de formation</span> <strong>A la fin du formation</strong>
+        </li>
+      </ul>
+    </div>
+
+    <!-- === CTA MINIMALISTE === -->
+    <div class="text-center mt-5">
+      <h4 class="fw-bold text-dark mb-3">
+        Prochaines sessions <span class="text-primary"> semaine prochaine</span>
+      </h4>
+      <a href="#contact" class="btn btn-primary btn-lg rounded-pill px-5 py-3 fw-bold shadow-sm">
+        Réserver une place
+      </a>
+    </div>
+
+    <!-- Section Site Portfolio -->
+    <section id="portfolio" class="py-5 bg-white">
+      <div class="container py-lg-5">
+        <div class="row align-items-center g-5">
+
+          <!-- IMAGE À GAUCHE (desktop) / HAUT (mobile) -->
+          <div class="col-lg-6 order-lg-1 order-1 text-center text-lg-start">
+            <img src="assets/img/portfolio.webp"
+            alt="Site portfolio professionnel pour freelances et artistes"
+            class="img-fluid rounded-4 shadow-lg animate__animated animate__fadeInLeft"
+            style="max-height: 420px; object-fit: cover; border: 3px solid #fff;">
+          </div>
+
+          <!-- TEXTE À DROITE -->
+          <div class="col-lg-6 order-lg-2 order-2">
+            <div class="pe-lg-4 animate__animated animate__fadeInRight">
+              <h3 class="display-6 fw-bold mb-3" style="color: #035db7;">
+                Site Portfolio Professionnel
+              </h3>
+              <p class="lead text-muted mb-4">
+                Mettez en valeur vos projets, compétences et réalisations avec un site élégant et moderne.
+              </p>
+
+              <!-- Avantages rapides -->
+              <div class="row g-3 mb-4">
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                    <span>Design unique</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                    <span>Galerie interactive</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                    <span>100% responsive</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="d-flex align-items-center">
+                    <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                    <span>SEO optimisé</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Prix + Bouton -->
+              <div class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center gap-3">
+                <p class="fw-bold text-primary mb-0 fs-5">
+                  À partir de <span class="text-dark">120 000 Ar</span>
+                </p>
+                <a href="#contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm fw-bold">
+                  <i class="bi bi-arrow-right-circle me-2"></i> Créer mon portfolio
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- === LIVRABLES & GARANTIE === -->
+        <div class="mt-5 p-4 bg-light rounded-4 border-start border-primary border-4">
+          <p class="mb-0">
+            <strong>Galerie avec filtres</strong>, animations fluides, formulaire de contact, <strong>fichiers sources inclus</strong>. 
+            <strong>Modifications gratuites 7 jours</strong> après livraison.
+          </p>
+        </div>
+
+        <!-- === OFFRES === -->
+        <div class="row g-4 mt-5">
+
+          <!-- Offre Basique -->
+          <div class="col-md-4">
+            <div class="card h-100 offer-card rounded-4 text-center p-3 shadow-sm">
+              <div class="card-body d-flex flex-column">
+                <h6 class="fw-bold text-primary">Offre Basique</h6>
+                <p class="small text-muted mt-2">1 page + projets + services + SEO de base</p>
+                <p class="display-6 fw-bold text-dark mt-3">120 000 Ar</p>
+                <p class="small text-success mt-2">Livré en 4 jours</p>
+                <a href="#contact" class="btn btn-outline-primary btn-sm rounded-pill mt-auto">Choisir</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Offre Standard (Recommandée) -->
+          <div class="col-md-4">
+            <div class="card h-100 offer-card offer-featured rounded-4 text-center p-3 shadow-lg">
+              <div class="card-body d-flex flex-column">
+                <span class="badge bg-primary mb-2">Le + demandé</span>
+                <h6 class="fw-bold text-primary">Offre Standard</h6>
+                <p class="small text-muted mt-2">2 à 3 pages + projets + filtres + animations</p>
+                <p class="display-6 fw-bold text-dark mt-3">250 000 Ar</p>
+                <p class="small text-success mt-2">Livré en 6 jours</p>
+                <a href="#contact" class="btn btn-primary btn-sm rounded-pill mt-auto">Choisir</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Offre Premium -->
+          <div class="col-md-4">
+            <div class="card h-100 offer-card rounded-4 text-center p-3 shadow-sm">
+              <div class="card-body d-flex flex-column">
+                <h6 class="fw-bold text-primary">Offre Premium</h6>
+                <p class="small text-muted mt-2">Standard + blog + CV interactif + SEO avancé</p>
+                <p class="display-6 fw-bold text-dark mt-3">350 000 Ar</p>
+                <p class="small text-success mt-2">Livré en 8 jours</p>
+                <a href="#contact" class="btn btn-primary btn-sm rounded-pill mt-auto">Choisir</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- === OPTIONS COMPLÉMENTAIRES === -->
+        <div class="mt-5">
+          <h5 class="fw-bold text-primary mb-3">
+            <i class="bi bi-plus-circle me-2"></i> Options supplémentaires
+          </h5>
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Projets supplémentaires (x5)</span> <strong>+60 000 Ar</strong>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Formulaire de contact fonctionnel</span> <strong>+50 000 Ar</strong>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Animation d’entrée personnalisée</span> <strong>+40 000 Ar</strong>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Hébergement 1 an + domaine .com ou .mg</span> <strong>+100 000 Ar</strong>
+            </li>
+          </ul>
+        </div>
+
+        <!-- === CTA MINIMALISTE === -->
+        <div class="text-center mt-5">
+          <h4 class="fw-bold text-dark mb-3">
+            Votre site portfolio <span class="text-primary"> prêt en 3 jours</span>
+          </h4>
+          <a href="#contact" class="btn btn-primary btn-lg rounded-pill px-5 py-3 fw-bold shadow-sm">
+            Commencer maintenant
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+  </div>
+</section>
+
+<!-- Section Dépannage & Support -->
+<section id="depannage" class="py-5 bg-light">
+  <div class="container py-lg-5">
+    <div class="row align-items-center g-5">
+
+      <!-- IMAGE À GAUCHE -->
+      <div class="col-lg-6 order-lg-1 order-1 text-center text-lg-start">
+        <img src="assets/img/depannage.webp"
+        alt="Dépannage PC urgent, technicien à domicile"
+        class="img-fluid rounded-4 shadow-lg animate__animated animate__fadeInLeft"
+        style="max-height: 420px; object-fit: cover; border: 3px solid #fff;">
+      </div>
+
+      <!-- TEXTE À DROITE -->
+      <div class="col-lg-6 order-lg-2 order-2">
+        <div class="pe-lg-4 animate__animated animate__fadeInRight">
+          <h3 class="display-6 fw-bold mb-3" style="color: #035db7;">
+            Dépannage & Support 24/7
+          </h3>
+          <p class="lead text-muted mb-4">
+            PC bloqué ? Virus ? Internet HS ? On intervient en urgence.
+          </p>
+
+          <!-- Avantages rapides -->
+          <div class="row g-3 mb-4">
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Intervention < 2h</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Déplacement gratuit</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Paiement après réparation</span>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="d-flex align-items-center">
+                <i class="bi bi-check-circle-fill text-primary me-2"></i>
+                <span>Garantie 10 jours</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Prix + Bouton -->
+          <div class="d-flex flex-column flex-sm-row align-items-start align-items-sm-center gap-3">
+            <p class="fw-bold text-primary mb-0 fs-5">
+              À partir de <span class="text-dark">10 000 Ar</span>
+            </p>
+            <a href="#contact" class="btn btn-primary rounded-pill px-4 py-2 shadow-sm fw-bold">
+              <i class="bi bi-headset me-2"></i> Appeler maintenant
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- === GARANTIE & URGENCE === -->
+    <div class="mt-5 p-4 bg-danger text-white rounded-4 border-start border-light border-4">
+      <p class="mb-0">
+        <strong>Urgence 24/7</strong> – <strong>Déplacement gratuit</strong> – 
+        <strong>Paiement après résolution</strong> – <strong>Garantie 10 jours</strong>.
+      </p>
+    </div>
+
+    <!-- === OFFRES PAR URGENCE === -->
+    <div class="row g-4 mt-5">
+
+      <!-- Basique -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card rounded-4 text-center p-3 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <i class="bi bi-bug fs-2 text-warning mb-2"></i>
+            <h6 class="fw-bold text-primary">Petit bug</h6>
+            <p class="small text-muted mt-2">Logiciel bloqué, lenteur, virus simple</p>
+            <p class="display-6 fw-bold text-dark mt-3">10 000 Ar</p>
+            <p class="small text-success mt-2">Réparé en 1h</p>
+            <a href="#contact" class="btn btn-outline-primary btn-sm rounded-pill mt-auto">Appeler</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Standard (Recommandée) -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card offer-featured rounded-4 text-center p-3 shadow-lg">
+          <div class="card-body d-flex flex-column">
+            <span class="badge bg-primary mb-2">Urgence</span>
+            <i class="bi bi-exclamation-triangle-fill fs-2 text-danger mb-2"></i>
+            <h6 class="fw-bold text-primary">Panne critique</h6>
+            <p class="small text-muted mt-2">PC ne démarre plus, données bloquées</p>
+            <p class="display-6 fw-bold text-dark mt-3">50 000 Ar</p>
+            <p class="small text-success mt-2">Intervention < 1h</p>
+            <a href="#contact" class="btn btn-primary btn-sm rounded-pill mt-auto">Appeler</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Premium -->
+      <div class="col-md-4">
+        <div class="card h-100 offer-card rounded-4 text-center p-3 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <i class="bi bi-shield-lock-fill fs-2 text-success mb-2"></i>
+            <h6 class="fw-bold text-primary">Support Pro</h6>
+            <p class="small text-muted mt-2">Contrat mensuel : interventions illimité + suivi</p>
+            <p class="display-6 fw-bold text-dark mt-3">120 000 Ar/mois</p>
+            <p class="small text-success mt-2">Priorité 24/7</p>
+            <a href="#contact" class="btn btn-primary btn-sm rounded-pill mt-auto">Souscrire</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- === OPTIONS COMPLÉMENTAIRES === -->
+    <div class="mt-5">
+      <h5 class="fw-bold text-primary mb-3">Services d’urgence</h5>
+      <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Récupération données (disque HS)</span> <strong>+80 000 Ar</strong>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Réinstallation complète OS</span> <strong>+40 000 Ar</strong>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Nettoyage physique</span> <strong>+20 000 Ar</strong>
+        </li>
+        <li class="list-group-item d-flex justify-content-between">
+          <span>Intervention après 20h ou week-end</span> <strong>+30 000 Ar</strong>
+        </li>
+      </ul>
+    </div>
+    <!-- === CTA MINIMALISTE === -->
+    <div class="text-center mt-5">
+      <h4 class="fw-bold text-dark mb-3">
+        Pc en panne ? <span class="text-primary">  On arrive en moins de 1h !</span>
+      </h4>
+      <a href="#contact" class="btn btn-primary btn-lg rounded-pill px-5 py-3 fw-bold shadow-sm">
+        Appeler maintenant
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Section Conclusion -->
+<section id="conclusion" class="py-5 bg-gradient text-black" 
+style="background: linear-gradient(135deg, #035db7 0%, #024a8f 100%);">
+<div class="container py-lg-5 text-center">
+
+  <!-- Texte principal -->
+  <div class="row justify-content-center">
+    <div class="col-lg-10 col-xl-8">
+      <h3 class="display-6 fw-bold mb-4 animate__animated animate__fadeInUp">
+        Web design, graphisme, développement, maintenance, formation, etc...
+      </h3>
+      <p class="lead mb-4 animate__animated animate__fadeInUp animate__delay-1s" style="font-size: 1.2rem;">
+        Peu importe votre besoin digital, <strong>je transforme vos idées en résultats concrets</strong>.  
+        Avec <span class="text-warning">créativité</span>, <span class="text-success">efficacité</span> et <span class="text-info">passion</span>,  
+        je vous aide à <strong>donner vie à vos projets</strong> et à <strong>faire briller votre présence en ligne</strong>.
+      </p>
+    </div>
+  </div>
+
+  <!-- CTA Final -->
+  <div class="mt-5 animate__animated animate__fadeInUp animate__delay-2s">
+    <h4 class="fw-bold mb-3">
+      Prêt à passer à l’action ?
+    </h4>
+    <div class="d-flex flex-column flex-sm-row justify-content-center gap-3">
+      <a href="#contact" class="btn btn-warning btn-lg rounded-pill px-5 py-3 fw-bold shadow-lg">
+        <i class="bi bi-rocket-takeoff-fill me-2"></i> Démarrer mon projet
+      </a>
+      <a href="tel:+261381154220" class="btn btn-outline-black btn-lg rounded-pill px-5 py-3 fw-bold">
+        <i class="bi bi-telephone-fill me-2"></i> Appeler maintenant
+      </a>
+    </div>
+  </div>
+
+  <!-- Petit badge confiance -->
+  <div class="mt-5">
+    <p class="small mb-0 opacity-75 animate__animated animate__fadeInUp animate__delay-3s">
+      <i class="bi bi-shield-check-fill text-success me-1"></i>
+      Satisfaction garantie • Paiement à la livraison • Support inclus
+    </p>
+  </div>
+
+</div>
+</section>
+
+<!-- === Footer Moderne === -->
+<footer class="py-5 text-white position-relative overflow-hidden" 
+style="background-color: #035db7!important;">
+
+<!-- Fond subtil (effet profondeur) -->
+<div class="position-absolute top-0 start-0 w-100 h-100 opacity-10">
+  <div class="position-absolute top-50 start-50 translate-middle" 
+  style="width: 600px; height: 600px; background-color: #035db7!important;">
+</div>
+</div>
+
+<div class="container position-relative z-10">
+
+  <!-- Titre + Description -->
+  <div class="text-center mb-4">
+    <h5 class="fw-bold display-6 mb-2" style="text-shadow: 0 2px 10px rgba(0,0,0,0.3);">
+      Moramanga Services Informatiques
+    </h5>
+    <p class="mb-0 opacity-90" style="font-size: 1.1rem;">
+      Développement Web • Graphisme • Maintenance • Formation
+    </p>
+  </div>
+
+  <!-- Réseaux sociaux -->
+  <div class="d-flex justify-content-center gap-4 mb-4">
+  <a href="https://www.facebook.com/profile.php?id=61576329896431" target="_blank"
+  class="social-icon d-flex align-items-center justify-content-center rounded-circle shadow-lg"
+  style="width: 50px; height: 50px; background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2); transition: all 0.3s ease;">
+  <i class="fa-brands fa-facebook-f fs-4"></i>
+</a>
+</div>
+
+<!-- Copyright -->
+<div class="text-center mt-4">
+  <p class="small mb-1 opacity-80">
+    © <span id="year"></span> 
+    <strong class="text-warning">R_077</strong> – Tous droits réservés.
+  </p>
+  <p class="small mb-0 opacity-70">
+    Développé avec 
+    <i ></i> par 
+    <a href="https://ronan77.netlify.app" 
+    target="_blank" 
+    class="text-white text-decoration-none fw-bold hover-link">
+    Ronan Andriamahenitsoa
+  </a>
+</p>
+</div>
+</footer>
+
+<!-- Preloader -->
+<div id="preloader" class="d-flex align-items-center justify-content-center bg-white position-fixed top-0 start-0 w-100 h-100" style="z-index: 9999;">
+	<img src="assets/img/msi.png" alt="MSI Logo" class="preloader-logo" height="90">
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+	window.addEventListener("load", function () {
+		const preloader = document.getElementById("preloader");
+		setTimeout(() => {
+			preloader.classList.add("preloader-hidden");
+			setTimeout(() => {
+				preloader.style.display = "none";
+			}, 600);
+		}, 800); 
+	});
+</script>
+</body>
+</html>
