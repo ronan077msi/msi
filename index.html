@@ -10,15 +10,53 @@
   <meta property="og:title" content="Moramanga Services Informatiques – Création Web & Graphisme à Madagascar">
   <meta property="og:description" content="Services professionnels de création web, graphisme, maintenance et développement front-end à Madagascar.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://tonsite.com">
-  <meta property="og:image" content="assets/img/og-image.png">
+  <meta property="og:url" content="https://msi-services.netlify.app">
+  <meta property="og:image" content="https://msi-services.netlify.app/assets/img/og-image.png">
 
-    <!-- Twitter Card -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "MSI - Moramanga Services Informatiques",
+      "image": "https://msi-services.netlify.app/assets/img/msi.png",
+      "url": "https://msi-services.netlify.app/",
+      "logo": "https://msi-services.netlify.app/assets/img/msi.png",
+
+      "description": "MSI - Moramanga Services Informatiques : services de maintenance informatique, graphisme, web design, formation, création de sites web, et assistance technique à Moramanga.",
+
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Moramanga",
+        "addressCountry": "MG"
+      },
+
+      "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday", "Tuesday", "Wednesday",
+          "Thursday", "Friday", "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "18:00"
+      }],
+
+      "sameAs": [
+        "https://www.facebook.com/",
+        "https://www.instagram.com/",
+        "https://github.com/"
+      ]
+    }
+  </script>
+
+
+  <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Moramanga Services Informatiques – Création Web & Graphisme à Madagascar">
   <meta name="twitter:description" content="Services professionnels de création web, graphisme, maintenance et développement front-end à Madagascar.">
-  <meta name="twitter:image" content="assets/img/og-image.png">
-
+  <meta name="twitter:image" content="https://msi-services.netlify.app/assets/img/og-image.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="canonical" href="https://msi-services.netlify.app/">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -28,7 +66,7 @@
   integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/css/style.css">
   <!-- Favicon classique -->
-<link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
 <!-- Apple et mobiles -->
 <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicon.png">
 </head>
@@ -83,7 +121,7 @@
 </div>
 
 <!-- Mobile -->
-<ul class="navbar-nav flex-row justify-content-center align-items-center d-lg-none mobile-icons fixed-bottom bg-white shadow-lg border-top py-2" 
+<ul class="navbar-nav flex-row justify-content-center align-items-center d-lg-none mobile-icons fixed-bottom" 
 style="z-index: 1030; left: 0; right: 0;">
 <li class="nav-item flex-fill text-center">
   <a class="nav-link p-3 active" href="#welcome" data-section="welcome">
@@ -461,11 +499,11 @@ style="background-color: #035db7!important;">
 
   <!-- Réseaux sociaux -->
   <div class="d-flex justify-content-center gap-4 mb-4">
-  <a href="https://www.facebook.com/profile.php?id=61576329896431" target="_blank"
-  class="social-icon d-flex align-items-center justify-content-center rounded-circle shadow-lg"
-  style="width: 50px; height: 50px; background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2); transition: all 0.3s ease;">
-  <i class="fa-brands fa-facebook-f fs-4"></i>
-</a>
+    <a href="https://www.facebook.com/profile.php?id=61576329896431" target="_blank"
+    class="social-icon d-flex align-items-center justify-content-center rounded-circle shadow-lg"
+    style="width: 50px; height: 50px; background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2); transition: all 0.3s ease;">
+    <i class="fa-brands fa-facebook-f fs-4"></i>
+  </a>
 </div>
 
 <!-- Copyright -->
@@ -478,11 +516,11 @@ style="background-color: #035db7!important;">
     Développé avec 
     <i ></i> par 
     <a href="https://ronan77.netlify.app" 
-       target="_blank" 
-       class="text-white text-decoration-none fw-bold hover-link">
-      Ronan Andriamahenitsoa
-    </a>
-  </p>
+    target="_blank" 
+    class="text-white text-decoration-none fw-bold hover-link">
+    Ronan Andriamahenitsoa
+  </a>
+</p>
 </div>
 </footer>
 <!-- Preloader -->
@@ -529,7 +567,6 @@ style="background-color: #035db7!important;">
   });
 </script>
 <script>
-  // Preloader : disparaît quand tout est chargé
   window.addEventListener("load", function () {
     const preloader = document.getElementById("preloader");
     setTimeout(() => {

@@ -6,27 +6,6 @@ body {
     background: linear-gradient(to bottom, #ffffff, #f0f6ff);
 }
 
-/* Preloader minimaliste */
-#preloader {
-  transition: opacity 0.8s ease, visibility 0.8s ease;
-  background-color: #ffffff;
-}
-
-.preloader-logo {
-  animation: float 2s ease-in-out infinite;
-  filter: drop-shadow(0 4px 10px rgba(3, 93, 183, 0.15));
-}
-
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-12px); }
-}
-
-.preloader-hidden {
-  opacity: 0;
-  visibility: hidden;
-}
-
 /* ==============================
    Navbar
 ============================== */
@@ -130,8 +109,8 @@ body {
       position: relative; 
       margin: auto;
       padding: 0;       
-      background: none; 
-      box-shadow: none; 
+      background: none!important;; 
+      box-shadow: none!important;; 
       border-radius: 0; 
   }
 
@@ -146,7 +125,7 @@ body {
   }
 
   .mobile-icons .nav-link i:hover {
-      color: #333 !important;
+      color: #439df8 !important;
       transform: scale(1.2);
   }
 
