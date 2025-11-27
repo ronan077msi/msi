@@ -3,14 +3,14 @@
 
   <url>
     <loc>https://msi-services.netlify.app/</loc>
-    <lastmod>2025-11-14</lastmod>
+    <lastmod>2025-11-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://msi-services.netlify.app/services.html</loc>
-    <lastmod>2025-11-14</lastmod>
+    <lastmod>2025-11-27</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
